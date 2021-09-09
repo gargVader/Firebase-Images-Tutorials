@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     StorageReference storageReference;
     CollectionReference collectionReference;
 
-    private static final String TAG = "FirebaseTut";
+    public static final String TAG = "FirebaseTut";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 uploadFile();
+            }
+        });
+
+        showUploads.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ImagesActivity.class));
             }
         });
     }

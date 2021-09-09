@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Manu/Android Projects/Codechef App/Tutorials/FirebaseImagesTut/app/src/main/res/layout/activity_images.xml" value="0.1" />
         <entry key="..\:/Manu/Android Projects/Codechef App/Tutorials/FirebaseImagesTut/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Manu/Android Projects/Codechef App/Tutorials/FirebaseImagesTut/app/src/main/res/layout/image_item.xml" value="0.25" />
       </map>
     </option>
   </component>
